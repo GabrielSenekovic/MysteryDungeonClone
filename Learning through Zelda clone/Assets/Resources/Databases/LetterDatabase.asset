@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a119b09423dfd7346b1186c5799dbbe6, type: 3}
+  m_Name: LetterDatabase
+  m_EditorClassIdentifier: 
+  Data:
+  - letter: 97
+    Prefab: {fileID: 1242309295083124, guid: 85c0a2b2c0016e44b88515144f40e655, type: 2}
+    nextPositionOffset: 7
+  - letter: 98
+    Prefab: {fileID: 1294424310501612, guid: 04f52ebf0e7076445a3ab9e247f663a6, type: 2}
+    nextPositionOffset: 7
+  - letter: 99
+    Prefab: {fileID: 1681894765919594, guid: 53577e9afa36eed43abc7d124fcd0961, type: 2}
+    nextPositionOffset: 7
+  - letter: 100
+    Prefab: {fileID: 1421008762715240, guid: 60ddc8070b5a45141b4b86f4615a224c, type: 2}
+    nextPositionOffset: 7
+  - letter: 101
+    Prefab: {fileID: 1215760797159886, guid: 646a499d64276ee48927e720e23ea960, type: 2}
+    nextPositionOffset: 7
+  - letter: 102
+    Prefab: {fileID: 1318281424758218, guid: 36533b906eb17824dbfdffe581e3afa7, type: 2}
+    nextPositionOffset: 7
+  - letter: 103
+    Prefab: {fileID: 1501595587849228, guid: 630ad12abe94f584b925c8be24df364f, type: 2}
+    nextPositionOffset: 7
+  - letter: 104
+    Prefab: {fileID: 1420444367740982, guid: 7f591b4a9c7280f4abba61913ca99c9b, type: 2}
+    nextPositionOffset: 7
+  - letter: 105
+    Prefab: {fileID: 1812074682005392, guid: 5f14a669a431d4f48b2e0950a6c5c1af, type: 2}
+    nextPositionOffset: 7
+  - letter: 106
+    Prefab: {fileID: 1048488366061708, guid: 3c434899d3de7904e94dfb92b55fd8f2, type: 2}
+    nextPositionOffset: 7
+  - letter: 107
+    Prefab: {fileID: 1118107526855472, guid: 219d6eef667c2fd44a9111ae5ac7e7e3, type: 2}
+    nextPositionOffset: 7
+  - letter: 108
+    Prefab: {fileID: 1575636942118436, guid: f38801917add1a14f8468ff64456818f, type: 2}
+    nextPositionOffset: 7
+  - letter: 109
+    Prefab: {fileID: 1781873276646844, guid: 7a63bf00cefb307489c4e73881ac5220, type: 2}
+    nextPositionOffset: 7
+  - letter: 110
+    Prefab: {fileID: 1927762257910630, guid: f9a985a4c434d264ab93ab697571cde5, type: 2}
+    nextPositionOffset: 7
+  - letter: 111
+    Prefab: {fileID: 1847249548151928, guid: 743983445363abc4f9ac32a61a967841, type: 2}
+    nextPositionOffset: 7
+  - letter: 112
+    Prefab: {fileID: 1965438176372776, guid: b0ea6e09370170a40af3badf37c12a4c, type: 2}
+    nextPositionOffset: 7
+  - letter: 113
+    Prefab: {fileID: 1055538051991400, guid: e9ca916abcc66414283a9ff1e6f0c9dd, type: 2}
+    nextPositionOffset: 7
+  - letter: 114
+    Prefab: {fileID: 1197184985026836, guid: 215ae9020a81b6e4bba8a2ed51a3998d, type: 2}
+    nextPositionOffset: 7
+  - letter: 115
+    Prefab: {fileID: 1939076659306126, guid: 604aa66e2cb63774e9009c397f77e730, type: 2}
+    nextPositionOffset: 7
+  - letter: 116
+    Prefab: {fileID: 1340785856294104, guid: ff5198dea320d6c41885f2b1e26ce636, type: 2}
+    nextPositionOffset: 7
+  - letter: 117
+    Prefab: {fileID: 1177289825386378, guid: 680f7196b5d5eac4d960539a7c4d9d24, type: 2}
+    nextPositionOffset: 7
+  - letter: 118
+    Prefab: {fileID: 1444025823333480, guid: fe4a54eabde72a245a90708310452521, type: 2}
+    nextPositionOffset: 7
+  - letter: 119
+    Prefab: {fileID: 1851176514610950, guid: fc41250a31968f747a293e0d7397ea26, type: 2}
+    nextPositionOffset: 7
+  - letter: 120
+    Prefab: {fileID: 1419242166743956, guid: cd6555755cca6bc408d4ecc411c4e729, type: 2}
+    nextPositionOffset: 7
+  - letter: 121
+    Prefab: {fileID: 1013152034257072, guid: a29cc24279307c84a9455ffe476e5117, type: 2}
+    nextPositionOffset: 7
+  - letter: 122
+    Prefab: {fileID: 1316028731104194, guid: 2fd81e9580f82b6489c59959f5699ab7, type: 2}
+    nextPositionOffset: 7
+  - letter: 46
+    Prefab: {fileID: 1009292072646072, guid: 8009c1d3e8f695f48bbab3a9d5d69743, type: 2}
+    nextPositionOffset: 7

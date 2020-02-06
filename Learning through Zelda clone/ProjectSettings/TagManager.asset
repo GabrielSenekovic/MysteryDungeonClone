@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Head
+  - Interactable
+  - Enemy
+  - Tall Object
+  - Spawn Point
+  - Rooms
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - HeadHeightLayer
+  - Weapon
+  - Ethereal
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: EnvironmentBack
+    uniqueID: 2138390357
+    locked: 0
+  - name: Objects
+    uniqueID: 1074453725
+    locked: 0
+  - name: Characters
+    uniqueID: 549822877
+    locked: 0
+  - name: EnvironmentFront
+    uniqueID: 2773957223
+    locked: 0
+  - name: Projectile
+    uniqueID: 2030675205
+    locked: 0
+  - name: Flying
+    uniqueID: 1614996401
+    locked: 0
+  - name: FX
+    uniqueID: 3268845937
+    locked: 0
+  - name: UI
+    uniqueID: 2307716449
+    locked: 0

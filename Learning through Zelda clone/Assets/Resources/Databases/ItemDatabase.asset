@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68841a1984fae334c92d9cce50bf63a4, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  Data:
+  - name: Iron Sword
+    Type: 100
+    Item: {fileID: 11400000, guid: 0d4736847318b224e8d127bbc71b7081, type: 2}
+    WeaponType: 1
+    Prefab: {fileID: 1000011644650674, guid: 230b58c0d8c78384a900529924b4d0f8, type: 2}
+    EquipOnPickup: 1
+    EquipableHand: 1
+    Animation: 2
+  - name: Wooden Shield
+    Type: 200
+    Item: {fileID: 11400000, guid: be825165fa182f24db618bd31ec186be, type: 2}
+    WeaponType: 0
+    Prefab: {fileID: 1062739874838926, guid: 433d0e6a100429a4cb1718a13cc9a28e, type: 2}
+    EquipOnPickup: 1
+    EquipableHand: 2
+    Animation: 2
+  - name: Twilit Orb
+    Type: 22
+    Item: {fileID: 11400000, guid: 241970b3d9ed6d0429f1b2a6b9565edb, type: 2}
+    WeaponType: 0
+    Prefab: {fileID: 1259035742035566, guid: 0f2e3e6e7470830438f9a3e7a44d8679, type: 2}
+    EquipOnPickup: 0
+    EquipableHand: 0
+    Animation: 0
+  - name: Bow Of Lodhringi
+    Type: 301
+    Item: {fileID: 11400000, guid: 65c531268910554499aea11c83b6dfac, type: 2}
+    WeaponType: 7
+    Prefab: {fileID: 1581349330057052, guid: 7aa85cc21a5a6084090f33b2553489df, type: 2}
+    EquipOnPickup: 0
+    EquipableHand: 1
+    Animation: 2
+  - name: Blue Coin
+    Type: 2000
+    Item: {fileID: 0}
+    WeaponType: 0
+    Prefab: {fileID: 1510426872740926, guid: 3fda4cd72b800f84aa9fbe81237fa5b4, type: 2}
+    EquipOnPickup: 0
+    EquipableHand: 0
+    Animation: 0
+  - name: Pink Guard Chestplate
+    Type: 500
+    Item: {fileID: 11400000, guid: 7ac46eaac63957d4991d9f5f4d6eca4b, type: 2}
+    WeaponType: 0
+    Prefab: {fileID: 1510426872740926, guid: 3fda4cd72b800f84aa9fbe81237fa5b4, type: 2}
+    EquipOnPickup: 0
+    EquipableHand: 4
+    Animation: 0

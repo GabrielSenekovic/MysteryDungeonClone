@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb64df43f83d6b4aa3368b768a1922f, type: 3}
+  m_Name: DebugDialog1
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 84c4e63a535d9f44e811bc52d3d6bc1f, type: 2}
+  speakerRight: {fileID: 11400000, guid: 6656757e28145ec48add53892ce54448, type: 2}
+  lines:
+  - portrait: {fileID: 0}
+    text: hello this is what the dialog looks like motherfuckers i did it assholes
+      i am making functioning features oh no what is happening aaaaaah it goes on
+      and on and on and on...
+  - portrait: {fileID: 0}
+    text: hello this is what the dialog looks like motherfuckers

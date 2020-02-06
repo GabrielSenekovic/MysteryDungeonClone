@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1623784419908932}
+  m_IsPrefabAsset: 1
+--- !u!1 &1623784419908932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4883932453151712}
+  m_Layer: 0
+  m_Name: Mystery Dungeon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1874497267439050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4169371473774410}
+  - component: {fileID: 114219316491667908}
+  - component: {fileID: 114634642399818774}
+  - component: {fileID: 114848775452333740}
+  m_Layer: 0
+  m_Name: Room Manager
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4169371473774410
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874497267439050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4883932453151712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4883932453151712
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623784419908932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4169371473774410}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114219316491667908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874497267439050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b0cb9b0d6c65a149935e9f3134ad82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugBreak: 0
+  maxAmountOfRoomsThisTime: 5
+  bossRoom: {fileID: 0}
+  allRoomsSpawned: 0
+  boss: {fileID: 1660135049847420, guid: 7a85009db88b003469e4459dbcbc5b63, type: 2}
+  fieldTheme: {fileID: 8300000, guid: a6541e8389decd442907ea6bc1f3f7f9, type: 3}
+  bossTheme: {fileID: 8300000, guid: 924ca41449b6f6d4b9f1157b6d41e389, type: 3}
+--- !u!114 &114634642399818774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874497267439050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b8b4dda069c5548b203aafe59adfc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallTileMapsArray:
+  - {fileID: 114384280582010846, guid: 71e55f999cbcdec44becfe87c3cceae4, type: 2}
+  replacementWallTileMapsArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  floorTileMapsArray:
+  - {fileID: 114602521249381392, guid: dc9f489238faa4747850a236d72dab51, type: 2}
+  replacementFloorTileMapsArray: []
+  loadedTileMaps: []
+  changedWallTileMaps: 
+  changedFloorTileMaps: 
+  ammountOfWallTileMaps: 2
+  ammountOfFloorTileMaps: 2
+--- !u!114 &114848775452333740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874497267439050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f19336bddd815408d89d299beeb7eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottomRooms:
+  - {fileID: 1703823240614844, guid: cc2d9a6b52b05e34ea17b286314c2eb9, type: 2}
+  - {fileID: 1904193525378986, guid: 45200113943eefa4fa4bc05445c46ca2, type: 2}
+  - {fileID: 1817369694977364, guid: 6bb49fbec0c497d4789dd64afd3395ad, type: 2}
+  - {fileID: 1189316811602794, guid: b2985ba74fff20847ab37a93607a2a5e, type: 2}
+  - {fileID: 1771407706018066, guid: 816780c5bec1b7443a7fd5cd70278a7c, type: 2}
+  - {fileID: 1517196282216742, guid: db49fa40c9c2acd4cb998ba90c8d502e, type: 2}
+  - {fileID: 1817238761992036, guid: 3c4ce3cff39ca224a9df79e7f70b827d, type: 2}
+  - {fileID: 1453243958318220, guid: e6e7ded4e6fb46e4eb2e0417a7a491e5, type: 2}
+  - {fileID: 1200490613086314, guid: a108b6687acf79d438bf9647109cf586, type: 2}
+  topRooms:
+  - {fileID: 1685111454364896, guid: 81da69a731a756f43a2019f3d121cd6e, type: 2}
+  - {fileID: 1771407706018066, guid: 816780c5bec1b7443a7fd5cd70278a7c, type: 2}
+  - {fileID: 1517196282216742, guid: db49fa40c9c2acd4cb998ba90c8d502e, type: 2}
+  - {fileID: 1817238761992036, guid: 3c4ce3cff39ca224a9df79e7f70b827d, type: 2}
+  - {fileID: 1453243958318220, guid: e6e7ded4e6fb46e4eb2e0417a7a491e5, type: 2}
+  - {fileID: 1200490613086314, guid: a108b6687acf79d438bf9647109cf586, type: 2}
+  - {fileID: 1027514435796356, guid: 0e70c112bb2ff9b4eae9ca168ea2bae2, type: 2}
+  - {fileID: 1195864657485068, guid: ccca59c8e2a228645abcb5c105a5be57, type: 2}
+  - {fileID: 1498066037209104, guid: 6a22db459ccb68c47ae28a2072d713ce, type: 2}
+  leftRooms:
+  - {fileID: 1904193525378986, guid: 45200113943eefa4fa4bc05445c46ca2, type: 2}
+  - {fileID: 1749500815521792, guid: 9dd37b8da0de9da44a198d0571c5f45c, type: 2}
+  - {fileID: 1189316811602794, guid: b2985ba74fff20847ab37a93607a2a5e, type: 2}
+  - {fileID: 1425267010203984, guid: 182630e68531940408438cf3ffbe6a5d, type: 2}
+  - {fileID: 1817238761992036, guid: 3c4ce3cff39ca224a9df79e7f70b827d, type: 2}
+  - {fileID: 1200490613086314, guid: a108b6687acf79d438bf9647109cf586, type: 2}
+  - {fileID: 1027514435796356, guid: 0e70c112bb2ff9b4eae9ca168ea2bae2, type: 2}
+  - {fileID: 1498066037209104, guid: 6a22db459ccb68c47ae28a2072d713ce, type: 2}
+  rightRooms:
+  - {fileID: 1817369694977364, guid: 6bb49fbec0c497d4789dd64afd3395ad, type: 2}
+  - {fileID: 1322161505500348, guid: edfadc79aa35b9046ba292732f915869, type: 2}
+  - {fileID: 1189316811602794, guid: b2985ba74fff20847ab37a93607a2a5e, type: 2}
+  - {fileID: 1425267010203984, guid: 182630e68531940408438cf3ffbe6a5d, type: 2}
+  - {fileID: 1453243958318220, guid: e6e7ded4e6fb46e4eb2e0417a7a491e5, type: 2}
+  - {fileID: 1200490613086314, guid: a108b6687acf79d438bf9647109cf586, type: 2}
+  - {fileID: 1195864657485068, guid: ccca59c8e2a228645abcb5c105a5be57, type: 2}
+  - {fileID: 1498066037209104, guid: 6a22db459ccb68c47ae28a2072d713ce, type: 2}
+  TRRooms:
+  - {fileID: 1195864657485068, guid: ccca59c8e2a228645abcb5c105a5be57, type: 2}
+  TLRooms:
+  - {fileID: 1027514435796356, guid: 0e70c112bb2ff9b4eae9ca168ea2bae2, type: 2}
+  BLRooms:
+  - {fileID: 1904193525378986, guid: 45200113943eefa4fa4bc05445c46ca2, type: 2}
+  BRRooms:
+  - {fileID: 1817369694977364, guid: 6bb49fbec0c497d4789dd64afd3395ad, type: 2}
+  TBRooms:
+  - {fileID: 1517196282216742, guid: db49fa40c9c2acd4cb998ba90c8d502e, type: 2}
+  - {fileID: 1771407706018066, guid: 816780c5bec1b7443a7fd5cd70278a7c, type: 2}
+  RLRooms:
+  - {fileID: 1425267010203984, guid: 182630e68531940408438cf3ffbe6a5d, type: 2}
+  bottomEndRooms:
+  - {fileID: 1703823240614844, guid: cc2d9a6b52b05e34ea17b286314c2eb9, type: 2}
+  topEndRooms:
+  - {fileID: 1685111454364896, guid: 81da69a731a756f43a2019f3d121cd6e, type: 2}
+  leftEndRooms:
+  - {fileID: 1749500815521792, guid: 9dd37b8da0de9da44a198d0571c5f45c, type: 2}
+  rightEndRooms:
+  - {fileID: 1322161505500348, guid: edfadc79aa35b9046ba292732f915869, type: 2}
+  BRLRooms:
+  - {fileID: 1189316811602794, guid: b2985ba74fff20847ab37a93607a2a5e, type: 2}
+  TBRRooms:
+  - {fileID: 1453243958318220, guid: e6e7ded4e6fb46e4eb2e0417a7a491e5, type: 2}
+  TRLRooms:
+  - {fileID: 1498066037209104, guid: 6a22db459ccb68c47ae28a2072d713ce, type: 2}
+  TBLRooms:
+  - {fileID: 1817238761992036, guid: 3c4ce3cff39ca224a9df79e7f70b827d, type: 2}
+  allRooms: []
+  waitTime: 4
+  roomsUpdated: 0
